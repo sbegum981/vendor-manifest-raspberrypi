@@ -34,7 +34,7 @@
     <project groups="configs" name="rdke-stb-config" path="rdke/configs/profile" remote="rdke" revision="refs/tags/1.0.1">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_CONFIGS_PROFILE"/>
     </project>
-    <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-raspberrypi4" remote="rdkcentral" revision="refs/tags/1.0.4">
+    <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-raspberrypi4" remote="rdkcentral" revision="refs/tags/1.0.5">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PRODUCT_LAYER"/>
     </project>
     <project groups="layers" name="rdk/components/opensource/oe/meta-raspberrypi" path="rdke/vendor/meta-raspberrypi" remote="cmf" revision="dunfell">
