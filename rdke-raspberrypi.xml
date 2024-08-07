@@ -3,6 +3,7 @@
     <remote fetch="ssh://git@github.com/rdk-e" name="rdke" review="https://github.com/rdk-e"/>
     <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral"/>
     <remote fetch="https://code.rdkcentral.com/r/a/" name="cmf" review="https://code.rdkcentral.com/r/a/"/>
+    <remote fetch="https://git.yoctoproject.org" name="oe" review="https://git.yoctoproject.org"/>
 
     <project groups="buildscripts" name="build-scripts" path="scripts" remote="rdke" revision="refs/tags/2.0.5">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_SCRIPTS"/>
@@ -37,11 +38,12 @@
     <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-raspberrypi4" remote="rdkcentral" revision="refs/tags/1.0.7">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PRODUCT_LAYER"/>
     </project>
-    <project groups="layers" name="rdk/components/opensource/oe/meta-raspberrypi" path="rdke/vendor/meta-raspberrypi" remote="cmf" revision="dunfell">
-        <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BSP"/>
-    </project>
     <project groups="layers" name="meta-rdk-raspberrypi" path="rdke/vendor/meta-rdk-raspberrypi" remote="rdkcentral" revision="refs/tags/1.2.5">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PLATFORM"/>
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
+    </project>
+    <!-- Use https://git.yoctoproject.org/meta-raspberrypi/commit/?h=dunfell&id=2081e1bb9a44025db7297bfd5d024977d42191ed -->
+    <project groups="layers" name="meta-raspberrypi" path="rdke/vendor/meta-raspberrypi" remote="oe" revision="2081e1bb9a44025db7297bfd5d024977d42191ed" upstream="dunfell">
+        <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BSP"/>
     </project>
 </manifest>
