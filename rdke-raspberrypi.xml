@@ -38,7 +38,7 @@
     <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-raspberrypi4" remote="rdkcentral" revision="1f3c9ab34866df93557fd5b19cd2900da25b8abb">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PRODUCT_LAYER"/>
     </project>
-    <project groups="layers" name="meta-rdk-raspberrypi" path="rdke/vendor/meta-rdk-raspberrypi" remote="rdkcentral" revision="2f144d2bc45fb2d5be3faf944124cef23ab75f72">
+    <project groups="layers" name="meta-rdk-raspberrypi" path="rdke/vendor/meta-rdk-raspberrypi" remote="rdkcentral" revision="932778e264832a1db3f6358aebbf378ed9f3fa5c">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PLATFORM"/>
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
     </project>
