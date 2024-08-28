@@ -15,7 +15,7 @@
     <project groups="oe" name="meta-openembedded" path="rdke/common/meta-openembedded" remote="rdke" revision="refs/tags/4.0.0-alpha-kirkstone" >
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OPENEMBEDDED"/>
     </project>
-    # Topic branch created from rdk/kirkstone
+    # RDKVREFPLT-3125: Topic branch created from rdk/kirkstone
     <project groups="oe" name="poky" path="rdke/common/poky" remote="rdke" revision="feature/kirkstone-community-platforms">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY"/>
     </project>
