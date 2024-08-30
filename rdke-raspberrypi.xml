@@ -23,7 +23,7 @@
     <project groups="layers" name="meta-rdk-oss-reference" path="rdke/common/meta-rdk-oss-reference" remote="rdke" revision="refs/tags/3.1.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_COMMON_OSS_REFERENCE"/>
     </project>
-    <project groups="products" name="meta-oss-vendor-raspberrypi" path="rdke/vendor/meta-oss-vendor" remote="rdkcentral" revision="a40c923e208a61d51e23d33724a8783ebf9e9d43">
+    <project groups="products" name="meta-oss-vendor-raspberrypi" path="rdke/vendor/meta-oss-vendor" remote="rdkcentral" revision="654c842532ce1b67398418b07a535e5219dc52f5">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OSS_VENDOR"/>
     </project>
     <project groups="configs" name="rdke-common-config" path="rdke/configs/common" remote="rdke" revision="refs/tags/1.0.8">
