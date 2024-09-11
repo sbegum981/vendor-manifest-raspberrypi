@@ -43,7 +43,7 @@
     <project groups="layers" name="meta-oss-vendor-raspberrypi" path="rdke/vendor/meta-oss-vendor" remote="rdkcentral" revision="f42ecc5b1d2d38aae126d7f51c611d889e6bc761">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OSS_VENDOR"/>
     </project>
-    <project groups="layers" name="meta-rdk-raspberrypi" path="rdke/vendor/meta-rdk-raspberrypi" remote="rdkcentral" revision="eac4fdc6367c65b6d9b1605fbefc47a3755fdcda">
+    <project groups="layers" name="meta-rdk-raspberrypi" path="rdke/vendor/meta-rdk-raspberrypi" remote="rdkcentral" revision="3cb28a6620018dbc2ee18d3d8c9058f6933f1b47">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PLATFORM"/>
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
     </project>
