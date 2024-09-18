@@ -13,7 +13,7 @@
     </project>
     <project groups="buildsupport" name="meta-rdk-auxiliary" path="rdke/common/meta-rdk-auxiliary" remote="rdke" revision="f37760a21a6a656040244fb929d84c3d56551c11">
         <!-- RDKVREFPLT-3302: Replace with meta-aux layer matching MANIFEST_EXPORT_PATH when its is available -->
-        <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_IMAGE_SUPPORT" />
+        <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_RDK_AUXILIARY" />
     </project>
     <project groups="oe" name="meta-openembedded" path="rdke/common/meta-openembedded" remote="rdke" revision="refs/tags/v1.0.0_dunfell" >
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OPENEMBEDDED"/>
