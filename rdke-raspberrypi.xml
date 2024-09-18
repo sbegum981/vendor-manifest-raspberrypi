@@ -36,14 +36,14 @@
     <project groups="configs" name="rdke-stb-config" path="rdke/configs/profile" remote="rdke" revision="refs/tags/1.0.1">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_CONFIGS_PROFILE"/>
     </project>
-    <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-product-raspberrypi" remote="rdkcentral" revision="f03ba7f60637aed0cef8d5ed2c2e354ba7c5e9f9">
+    <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-product-raspberrypi" remote="rdkcentral" revision="refs/tags/1.1.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PRODUCT_LAYER"/>
     </project>
     <!-- Vendor layers -->
-    <project groups="layers" name="meta-oss-vendor-raspberrypi" path="rdke/vendor/meta-oss-vendor" remote="rdkcentral" revision="f42ecc5b1d2d38aae126d7f51c611d889e6bc761">
+    <project groups="layers" name="meta-oss-vendor-raspberrypi" path="rdke/vendor/meta-oss-vendor" remote="rdkcentral" revision="refs/tags/1.0.2">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OSS_VENDOR"/>
     </project>
-    <project groups="layers" name="meta-rdk-raspberrypi" path="rdke/vendor/meta-rdk-raspberrypi" remote="rdkcentral" revision="92f4333221db260e83b0635bac549f2505693474">
+    <project groups="layers" name="meta-rdk-raspberrypi" path="rdke/vendor/meta-rdk-raspberrypi" remote="rdkcentral" revision="refs/tags/1.2.8">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PLATFORM"/>
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
     </project>
