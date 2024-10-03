@@ -1,4 +1,4 @@
-$<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote fetch="ssh://git@github.com/rdk-e" name="rdke" review="https://github.com/rdk-e"/>
     <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral"/>
