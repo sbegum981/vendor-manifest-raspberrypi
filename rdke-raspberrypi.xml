@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+$<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote fetch="ssh://git@github.com/rdk-e" name="rdke" review="https://github.com/rdk-e"/>
     <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral"/>
@@ -11,7 +11,7 @@
     <project groups="imagebuilder" name="meta-stack-layering-support" path="rdke/common/meta-stack-layering-support" remote="rdke" revision="refs/tags/2.0.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_STACK_LAYERING_SUPPORT"/>
     </project>
-    <project groups="buildsupport" name="meta-rdk-auxiliary" path="rdke/common/meta-rdk-auxiliary" remote="rdke" revision="f37760a21a6a656040244fb929d84c3d56551c11">
+    <project groups="buildsupport" name="meta-rdk-auxiliary" path="rdke/common/meta-rdk-auxiliary" remote="rdke" revision="refs/tags/0.0.3">
         <!-- RDKVREFPLT-3302: Replace with meta-aux layer matching MANIFEST_EXPORT_PATH when its is available -->
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_RDK_AUXILIARY" />
     </project>
